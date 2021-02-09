@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15975266A9CD80C776FC1ACB /* CXStarRatingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CXStarRatingView.podspec; path = ../CXStarRatingView.podspec; sourceTree = "<group>"; };
+		15975266A9CD80C776FC1ACB /* CXStarRatingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXStarRatingView.podspec; path = ../CXStarRatingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		17425C81BC605A25FBF743D8 /* Pods-CXStarRatingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXStarRatingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-CXStarRatingView_Example/Pods-CXStarRatingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		36C2A65FF5A543A79C7121EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36C2A65FF5A543A79C7121EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		50A4932D95891D1B95357804 /* Pods-CXStarRatingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXStarRatingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CXStarRatingView_Tests/Pods-CXStarRatingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CXStarRatingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXStarRatingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		73B2EEF3EFCAFB307777F574 /* Pods-CXStarRatingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXStarRatingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-CXStarRatingView_Tests/Pods-CXStarRatingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B8FE4B18494353C817A97F5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B8FE4B18494353C817A97F5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE3C1EB969649B8BAE589F9D /* Pods-CXStarRatingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXStarRatingView_Example.release.xcconfig"; path = "Target Support Files/Pods-CXStarRatingView_Example/Pods-CXStarRatingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE7125EC7998E459F59DD675 /* Pods_CXStarRatingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXStarRatingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFAB515CDF98957BE42FD6C /* Pods_CXStarRatingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXStarRatingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,6 @@
 				50A4932D95891D1B95357804 /* Pods-CXStarRatingView_Tests.debug.xcconfig */,
 				73B2EEF3EFCAFB307777F574 /* Pods-CXStarRatingView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

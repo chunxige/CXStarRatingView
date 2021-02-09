@@ -1,0 +1,6 @@
+framework module CXStarRatingView {
+  umbrella header "CXStarRatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
