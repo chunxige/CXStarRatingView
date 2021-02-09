@@ -22,7 +22,7 @@ pod 'CXStarRatingView'
 
 ## Author
 
-1193700248@qq.com, 1193700248@qq.com
+1193700248@qq.com
 
 ## License
 

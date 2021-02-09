@@ -32,6 +32,7 @@
 		17425C81BC605A25FBF743D8 /* Pods-CXStarRatingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXStarRatingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-CXStarRatingView_Example/Pods-CXStarRatingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		36C2A65FF5A543A79C7121EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		50A4932D95891D1B95357804 /* Pods-CXStarRatingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXStarRatingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CXStarRatingView_Tests/Pods-CXStarRatingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		552FCFF225D226BE00488A60 /* screen_shot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screen_shot.gif; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CXStarRatingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXStarRatingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 				15975266A9CD80C776FC1ACB /* CXStarRatingView.podspec */,
 				36C2A65FF5A543A79C7121EA /* README.md */,
 				B8FE4B18494353C817A97F5B /* LICENSE */,
+				552FCFF225D226BE00488A60 /* screen_shot.gif */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
