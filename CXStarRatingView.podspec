@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CXStarRatingView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Swift版本的星星评分控件'
   s.description      = <<-DESC
  '支持整星、半星、任意值填充星星，支持点击和滑动评分'

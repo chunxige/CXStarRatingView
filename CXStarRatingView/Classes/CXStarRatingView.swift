@@ -111,7 +111,7 @@ public class CXStarRatingView: UIView {
 
     lazy var panGes = UIPanGestureRecognizer(target: self, action: #selector(panAction(_:)))
     lazy var tapGes = UITapGestureRecognizer(target: self, action: #selector(tapAction(_:)))
-    lazy var backgroundStackView: UIStackView = {
+    public lazy var backgroundStackView: UIStackView = {
         let stack = UIStackView()
         stack.axis = .horizontal
         stack.distribution = .fillEqually
@@ -128,7 +128,6 @@ public class CXStarRatingView: UIView {
                            backgroundStackView.trailingAnchor.constraint(equalTo: trailingAnchor),
                            backgroundStackView.bottomAnchor.constraint(equalTo: bottomAnchor)
                           ]
-        //constraints.forEach({$0.priority = .defaultLow})
         NSLayoutConstraint.activate(constraints)
         for _ in 0..<totalStarCount {
             let v = StarIconView.init(foregroundImage: foregroundStarImage,

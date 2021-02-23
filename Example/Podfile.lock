@@ -1,5 +1,5 @@
 PODS:
-  - CXStarRatingView (0.1.0)
+  - CXStarRatingView (0.1.1)
 
 DEPENDENCIES:
   - CXStarRatingView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXStarRatingView: e508f53ed080c682577cdea3c8ff17f107969c19
+  CXStarRatingView: 0760ad874a55967fb5d5d7429906dbbfb1c38b4c
 
 PODFILE CHECKSUM: bfa7ba6281421491aa4c122a8c2e155189bc7b09
 

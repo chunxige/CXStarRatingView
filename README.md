@@ -14,9 +14,8 @@
  
 ## Example
 
-![screen_shot.gif](https://github.com/chunxige/CXStarRatingView/blob/master/Example/screen_shot.gif)
+![demo.gif](https://github.com/chunxige/CXStarRatingView/blob/master/Example/demo.gif)
 ```
-// MARK: - 自动布局
 let starView = CXStarRatingView.init(forgroundStarImage: UIImage(named: "star_red"),
                                            backgroundStarImage: UIImage(named: "star_gray"),
                                            style: .whole)
@@ -33,21 +32,10 @@ NSLayoutConstraint.activate([
     starView.heightAnchor.constraint(equalToConstant: 40)
     ])
         
- // MARK: - 手动布局
-let star2View = CXStarRatingView.init(forgroundStarImage: UIImage(named:     "star_red"),
-                                           backgroundStarImage: UIImage(named: "star_gray"),
-                                           style: .half)
-star2View.frame = CGRect.init(x: 0, y: 0, width: 200, height: 40)
-star2View.center = CGPoint.init(x: view.center.x, y: 300)
-star2View.currentStarValue = 3
-star2View.currentValueDidChangeBlock = { value in
-     print(value)
-}
-view.addSubview(star2View)
 ```
 
 ## Requirements
-iOS9
+iOS9 or later
 ## Installation
 
 CXStarRatingView is available through [CocoaPods](https://cocoapods.org). To install
